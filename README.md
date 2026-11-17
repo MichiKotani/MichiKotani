@@ -6,8 +6,8 @@
 
 ```mermaid
 flowchart TD
-  B[夜間レーン<br/>AI が issue を実装] --> C[PR<br/>冒頭に判定行]
-  C --> D[無人マージ<br/>UI 軽い・可逆・CI pass]
+  B[夜間レーン<br/>AI が実装] --> C[PR<br/>冒頭に判定行]
+  C --> D[無人マージ<br/>UI 軽い・可逆]
   C --> E[本人レビュー<br/>UI 重い・不可逆]
   D --> F[本番への昇格<br/>ここだけ人の門]
   E --> F
